@@ -96,7 +96,7 @@ this.isMobileNumberValid = this.phoneNumbersService.isMobileNumberValid();
 
 ## Feedback
 
-Please [leave your feedback](https://github.com/perceivechuchu/phone-numbers/issues) if you have noticed any issue or have a feature request.
+Please [leave your feedback](https://github.com/perceivechuchu/international-phone-numbers/issues) if you have noticed any issue or have a feature request.
 
 ## License
 
