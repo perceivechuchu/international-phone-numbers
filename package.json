@@ -1,0 +1,35 @@
+{
+  "name": "international-phone-numbers",
+  "version": "0.0.4",
+  "description": "Angular 7 international phone numbers module",
+  "author": {
+    "name": "Perceive Chuchu",
+	"email": "perceivechuchu@gmail.com"
+  },
+  "keywords": [
+    "angular 7",
+    "angular",
+    "npm",
+    "package",
+    "module",
+    "phone",
+    "numbers",
+	"mobile",
+	"library"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/perceivechuchu/international-phone-numbers.git"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^7.0.0",
+    "@angular/core": "^7.0.0",
+    "@syncfusion/ej2-angular-dropdowns": "^17.1.41",
+    "bootstrap": "4.0.0",
+	"@angular/http": "^7.0.3",
+  "@angular/forms": "^7.0.3",
+  "rxjs": "6.3.0",
+  "@angular/platform-browser": "^7.0.3"
+  }
+}
