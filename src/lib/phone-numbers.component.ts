@@ -46,22 +46,11 @@ public watermark: string = 'Select country';
   }
   
   getCountryDetails(): void {
-    this.phoneNumbersService.getCountryData()
-      .subscribe(
-      result => {
-        //this.allCountries = result;
-        console.log('get countries details result: ' + JSON.stringify(result));
-        this.allCountries = result.sort(this.dynamicSort("countryName"));
+        this.allCountries = this.phoneNumbersService.allCountries.sort(this.dynamicSort("countryName"));
         this.data = this.allCountries;
         if(this.shortMobileNumber === null || this.shortMobileNumber === "" || this.shortMobileNumber === undefined){
           this.extractMobileNumberDetails(this.phoneNumbersService.selectedCountry, this.phoneNumbersService.selectedMobileNumber);
         }
-
-      },
-      error => {
-        console.log('error: ' + error);
-      }
-      );
   }
 
   dynamicSort(property: string) {

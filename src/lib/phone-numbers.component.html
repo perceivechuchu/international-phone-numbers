@@ -10,13 +10,13 @@
             </ng-template>
             <ng-template #itemTemplate let-data>
               <div>
-                <img class="countryImage" src="./assets/country-flags/{{data.countryCode.toLowerCase()}}.png" alt="countryName" />
+                <img class="countryImage" [src]="data.flag" alt="countryName" />
                 <div class="ename"> {{data.countryName}} {{data.postalCode}} </div>
               </div>
             </ng-template>
             <ng-template #valueTemplate let-data>
               <div>
-                <img class="valueTemp" src="./assets/country-flags/{{data.countryCode.toLowerCase()}}.png" alt="countryCode" />
+                <img class="valueTemp" [src]="data.flag" alt="countryCode" />
                 <div class="name"> {{data.postalCode}} </div>
               </div>
             </ng-template>
