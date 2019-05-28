@@ -2,7 +2,7 @@
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](http://opensource.org/licenses/MIT)
 
-This is a simple library that provides component and service for dealing with capturing and validating international phone numbers.
+This is a simple library that provides component and service for dealing with capturing and validating international phone numbers. It allows you to create a phone number field with country flag, country name and country postal code dropdown.
 
 ## Requirements
 - [NPM](https://npmjs.org/) - Node package manager

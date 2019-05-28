@@ -1,6 +1,6 @@
 {
   "name": "international-phone-numbers",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Angular 7 international phone numbers module",
   "author": {
     "name": "Perceive Chuchu",
@@ -15,7 +15,9 @@
     "phone",
     "numbers",
 	"mobile",
-	"library"
+	"library",
+	"phone number input",
+	"country dropdown"
   ],
   "repository": {
     "type": "git",
